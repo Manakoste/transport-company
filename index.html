@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузоперевозки по России | ТрансЛогистик</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ТрансЛогистик</h1>
+                <p>Надёжные грузоперевозки по всей России</p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Главная</a></li>
+                    <li><a href="vehicles.html">Наш транспорт</a></li>
+                    <li><a href="routes.html">Направления</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Профессиональные грузоперевозки</h2>
+            <p>Быстро, надёжно, с гарантией сохранности груза</p>
+            <a href="#calculator" class="btn">Рассчитать стоимость</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-truck"></i>
+                <h3>Собственный автопарк</h3>
+                <p>Более 50 единиц современного транспорта</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Широкая география</h3>
+                <p>Перевозки по всей России и СНГ</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Страхование груза</h3>
+                <p>Полная ответственность за ваш груз</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <h2>Калькулятор перевозки</h2>
+            <form>
+                <div class="form-group">
+                    <label for="from">Откуда:</label>
+                    <input type="text" id="from" placeholder="Город отправления">
+                </div>
+                <div class="form-group">
+                    <label for="to">Куда:</label>
+                    <input type="text" id="to" placeholder="Город назначения">
+                </div>
+                <div class="form-group">
+                    <label for="weight">Вес груза (кг):</label>
+                    <input type="number" id="weight" placeholder="Введите вес">
+                </div>
+                <button type="submit" class="btn">Рассчитать</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +7 (123) 456-78-90</p>
+                <p><i class="fas fa-envelope"></i> info@translogistic.ru</p>
+                <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Транспортная, 15</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ТрансЛогистик. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>

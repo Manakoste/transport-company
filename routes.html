@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Направления перевозок | ТрансЛогистик</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ТрансЛогистик</h1>
+                <p>Надёжные грузоперевозки по всей России</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="vehicles.html">Наш транспорт</a></li>
+                    <li class="active"><a href="routes.html">Направления</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Направления перевозок</h2>
+            <p>География наших грузоперевозок</p>
+        </div>
+    </section>
+
+    <section class="routes">
+        <div class="container">
+            <div class="route-map" id="map"></div>
+            
+            <div class="route-list">
+                <h3>Основные направления</h3>
+                <div class="routes-container" id="routesContainer">
+                    <!-- Направления будут загружены через JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ТрансЛогистик. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/routes.js"></script>
+</body>
+</html>

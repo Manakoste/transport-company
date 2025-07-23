@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "type": "truck",
+        "name": "Грузовик Volvo FH16",
+        "image": "volvo-truck.jpg",
+        "capacity": 20000,
+        "volume": 82,
+        "range": 1500,
+        "description": "Мощный грузовик для междугородних перевозок"
+    },
+    {
+        "id": 2,
+        "type": "truck",
+        "name": "MAN TGS",
+        "image": "man-truck.jpg",
+        "capacity": 18000,
+        "volume": 76,
+        "range": 1200,
+        "description": "Надёжный грузовик для региональных перевозок"
+    },
+    {
+        "id": 3,
+        "type": "van",
+        "name": "Mercedes Sprinter",
+        "image": "sprinter.jpg",
+        "capacity": 1500,
+        "volume": 14,
+        "range": 800,
+        "description": "Фургон для городских и междугородних перевозок"
+    },
+    {
+        "id": 4,
+        "type": "trailer",
+        "name": "Прицеп Schmitz",
+        "image": "trailer.jpg",
+        "capacity": 22000,
+        "volume": 90,
+        "range": null,
+        "description": "Полуприцеп с тентом для различных грузов"
+    }
+]
