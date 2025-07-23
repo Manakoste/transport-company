@@ -90,5 +90,14 @@
             <p>&copy; 2023 ТрансЛогистик. Все права защищены.</p>
         </div>
     </footer>
+	<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => console.log('ServiceWorker зарегистрирован'))
+        .catch(err => console.log('Ошибка регистрации ServiceWorker:', err));
+    });
+  }
+</script>
 </body>
 </html>
